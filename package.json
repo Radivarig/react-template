@@ -1,0 +1,28 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "react template",
+  "author": "Reslav Hollos",
+  "license": "MIT",
+  "main": "./exports.js",
+  "scripts": {
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js --progress --colors",
+    "build": "./node_modules/webpack/bin/webpack.js --build --config webpack.config.js --progress --colors"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component"
+  ],
+  "peerDependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+    },
+  "dependencies": {
+    "jsx-loader": "^0.13.x"
+  }
+}
